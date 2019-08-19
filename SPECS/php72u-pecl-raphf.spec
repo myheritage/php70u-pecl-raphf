@@ -1,5 +1,5 @@
 %global pecl_name raphf
-%global php_base php72u
+%global %{_php_base:php72u}
 %global ini_name  40-%{pecl_name}.ini
 %global with_zts 0%{?__ztsphp:1}
 
